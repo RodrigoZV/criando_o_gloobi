@@ -1,0 +1,171 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white
+}
+
+.v{
+    color: green;
+    cursor: pointer;
+}
+
+.v:hover{
+    border-top: 2px solid green;
+}
+
+.a{
+    color: yellow;
+    cursor: pointer;
+}
+
+.a:hover{
+    border-top: 2px solid yellow;
+}
+
+.m{
+    color: blueviolet;
+    cursor: pointer;
+}
+
+.m:hover{
+    border-top: 2px solid blueviolet;
+}
+
+.r{
+    color: red;
+    cursor: pointer;
+}
+
+.r:hover{
+    border-top: 2px solid red
+}
+
+.l{
+    color: orangered;
+    cursor: pointer;
+}
+
+.l:hover{
+    border-top: 2px solid orangered;
+}
+
+
+.bor{
+    background: green;
+    height: 8px;
+    width: 100%;
+}
+
+.bor2{
+    background: yellow;
+    height: 8px;
+    width: 100%;
+}
+
+.fa-solid{
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+.fa-solid:hover{
+    color: aquamarine;
+    transition: 0.5s;
+}
+
+.redes{
+    display: flex;
+    padding: 10px;
+    background: white;
+}
+
+p{
+    margin: 10px;
+}
+
+.cabeça{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1e4c9a;
+    padding: 30px;
+}
+
+.redes2{
+    display: flex;
+    align-items: center;
+    width: 30%;
+    gap: 40px;  
+    color: white;
+}
+
+.redes2 a{
+    text-decoration: none;
+    color: white;
+}
+
+.busca{
+    height: 50px;
+    width: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    border: none;
+
+}
+
+.busca button{
+    margin-right: 20px;
+    height: 30px;
+    width: 30px;
+    border: none;
+    background: transparent;
+    color: #1e4c9a;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.busca input{
+    border: none;
+    outline: 0;
+    margin-left: 20px;
+    width: 650px;
+    height: 30px;
+}
+
+.login{
+    display: flex;
+    align-items: center;
+}
+.login a{
+    text-decoration: none;
+    color: white;
+}
+
+.pro{
+    text-align: center;
+    padding: 50px;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    box-shadow: black;
+}
+
+.noti{
+    margin: 30px;
+    padding: 0 10px;
+    border: 5px solid black;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.fa-solid{
+    font-size: 30px;
+}
+
